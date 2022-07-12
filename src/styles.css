@@ -1,7 +1,40 @@
-h1 {
-  font-family: "Lato", sans-serif;
+:root {
+  --branding-color: #f6c6ea;
+  --secondary-color: #faf4b7;
+  --accent-color: #cdf0ea;
+  --light-color: #f9f9f9;
+  --main-font-family: "Rubik", sans-serif;
+  --secondary-font-family: "Rubik Mono One", sans-serif;
 }
 
-p {
-  font-family: "Roboto Slab", serif;
+body {
+  font-family: var(--main-font-family);
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero h2 {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 2;
+  margin: 0;
+}
+
+.btn-branding {
+  background-color: var(--branding-color);
+  border-radius: 4px;
+  color: var(--light-color);
+  font-family: var(--secondary-font-family);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
