@@ -57,6 +57,14 @@ h1 {
   padding: 120px 60px;
 }
 
+.about-section {
+  padding: 160px 200px;
+}
+
+.about-section img {
+  border-radius: 50%;
+}
+
 @media (max-width: 992px) {
   .hero {
     padding: 80px 20px;
@@ -65,5 +73,14 @@ h1 {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  .about-section {
+    padding: 50px;
+    text-align: center;
+  }
+
+  .about-section img {
+    padding: 10px 60px;
   }
 }
