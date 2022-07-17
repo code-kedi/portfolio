@@ -16,6 +16,33 @@ h1 {
   font-weight: bold;
 }
 
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
 img:not(#my-photo) {
   padding: 20px 20px;
 }
@@ -105,5 +132,9 @@ img:not(#my-photo) {
 
   .content-section img {
     padding: 10px 10px;
+  }
+
+  nav a {
+    font-size: 14px;
   }
 }
