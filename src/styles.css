@@ -201,7 +201,7 @@ img:not(#my-photo) {
     text-align: center;
   }
 
-  .content-section img {
+  .content-section img:not(#my-photo) {
     padding: 10px 10px;
   }
 
