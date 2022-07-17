@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Get to know Sonja, a front-end development student based in Berlin, Germany."
+    />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -28,20 +32,32 @@
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
-    <title>About me - Sonja Peschke</title>
+    <title>About Sonja - Sonja Peschke</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-center justify-content-md-end">
+        <ul>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li class="active">
+            <a href="/about.html" title="About Sonja">About</a>
+          </li>
+          <li><a href="/work.html" title="Sonja's Work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Sonja">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="container content-section">
       <div class="row">
         <div class="col-lg-6">
-          <h1 class="mb-3">Hi I am <span>Sonja Peschke</span></h1>
+          <h1 class="mb-3">Hi I am Sonja Peschke</h1>
           <h2 class="mb-3">Based in Berlin, Germany.</h2>
           <p class="mb-5">
             Having a background in Consumer and UX Research, my goal is to
             transition to the field of web development and start a job as
             frontend developer 👩🏼‍💻
           </p>
-          <a href="#" class="btn btn-branding mb-4">See my projects</a>
+          <a href="/work.html" class="btn btn-branding mb-4">See my projects</a>
         </div>
         <div class="col-lg-6">
           <img
@@ -52,6 +68,58 @@
           />
         </div>
       </div>
+    </div>
+    <div class="container">
+      <footer>
+        <div
+          class="d-flex justify-content-between mb-5 d-none d-md-flex contact-box"
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding"
+              title="Contact Sonja"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:mymail@gmail.com"
+            class="email-link"
+            title="Email Sonja"
+            >mymail@gmail.com</a
+          >
+        </div>
+        <div class="d-flex justify-content-center social-links">
+          <a
+            href="https://www.github.com/"
+            target="_blank"
+            title="GitHub Profile"
+          >
+            <i class="fab fa-github" aria-hidden="true"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            title="Instagram Profile"
+          >
+            <i class="fab fa-instagram" aria-hidden="true"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/"
+            target="_blank"
+            title="LinkedIn Profile"
+          >
+            <i class="fab fa-linkedin" aria-hidden="true"></i>
+          </a>
+        </div>
+        <p class="text-center mt-5">This project was coded by Sonja.</p>
+      </footer>
     </div>
   </body>
 </html>
