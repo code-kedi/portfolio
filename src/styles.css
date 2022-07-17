@@ -16,7 +16,7 @@ h1 {
   font-weight: bold;
 }
 
-img {
+img:not(#my-photo) {
   padding: 20px 20px;
 }
 
